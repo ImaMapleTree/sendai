@@ -817,21 +817,6 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 }
 
 /* ~~~~		  		     BD Support							~~~~ */
-#bd-editor-controls {
-  background: var(--background-secondary-alt);
-  color: var(--interactive-normal);
-}
-#floating-editor-window {
-  border-radius: 10px;
-}
-.floating-window-titlebar {
-  background-color: var(--background-secondary-alt);
-}
-.floating-window #bd-editor-controls {
-  background-color: var(--background-tertiary) !important;
-  border-bottom: 1px solid var(--background-tertiary);
-  box-shadow: none;
-}
 .bd-tab-item.selected {
   cursor: default;
   background: var(--background-accent);

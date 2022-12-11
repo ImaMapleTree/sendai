@@ -121,11 +121,6 @@
   color: var(--text-muted) !important;
 }
 
-/* ===== Direct Messages ===== */
-.scroller-WSmht3 {
-}
-
-
 /* Scrollbar */
 .auto-2K3UW5::-webkit-scrollbar-thumb,
 .auto-2K3UW5::-webkit-scrollbar-track {
@@ -163,7 +158,7 @@
 }
 .pageWrapper-2PwDoS,
 .container-2cd8Mz {
-  background-color: var(--background-secondary) !important;
+  background-color: var(--background-primary) !important;
 }
 
 /* Chat Box */
@@ -836,16 +831,6 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   background-color: var(--background-tertiary) !important;
   border-bottom: 1px solid var(--background-tertiary);
   box-shadow: none;
-}
-.monaco-editor,
-.monaco-editor-background,
-.monaco-editor .inputarea.ime-input,
-.monaco-editor .margin {
-  background-color: var(--background-secondary) !important;
-}
-.monaco-editor .minimap,
-.monaco-editor .decorationsOverviewRuler {
-  display: none !important;
 }
 .bd-tab-item.selected {
   cursor: default;

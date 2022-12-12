@@ -29,6 +29,7 @@
   --background-secondary: #171722;
   --background-secondary-alt: #13131a;
   --background-tertiary: #16161e;
+  --background-tertiary-alt: black;
   --background-accent: #434461;
   --background-floating: #161620;
   --background-modifier-hover: #212331c0;
@@ -104,6 +105,11 @@
   --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
   --channeltextarea-background: var(--background-secondary);
   --input-background: var(--background-secondary);
+	
+  --primary-bar-gradient-top: rgba(255,180,194,1);
+  --primary-bar-gradient-middle: rgba(255,214,195,1);
+  --primary-bar-gradient-bottom: rgba(169,210,185,1);
+	
 }
 
 /* ~~~~		  		General							~~~~ */
@@ -114,6 +120,16 @@
 .theme-light ::selection {
   background-color: #fafbff55;
   color: #4c505e;
+}
+
+/* ======== MAIN BAR (DMs, Channel list, etc) ========= */
+.scroller-1ox3I2 {
+  background: linear-gradient(180deg, var(--primary-bar-gradient-top) 0%, var(--primary-bar-gradient-middle) 50%, var(--primary-bar-gradient-bottom) 100%);
+}
+
+/* ======= SERVER LIST BAR ======== */
+.scroller-3X7KbA {
+  background: linear-gradient(180deg, var(--background-tertiary) 0%, var(--background-tertiary-alt) 120%);
 }
 
 /* Input Box Placeholder Text */

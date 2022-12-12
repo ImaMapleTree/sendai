@@ -51,6 +51,10 @@
   --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
   --channeltextarea-background: var(--background-secondary);
   --input-background: var(--background-secondary);
+	
+  --primary-bar-gradient-top: rgba(255,180,194,1);
+  --primary-bar-gradient-middle: rgba(255,214,195,1);
+  --primary-bar-gradient-bottom: rgba(169,210,185,1);
 }
 
 .theme-light {

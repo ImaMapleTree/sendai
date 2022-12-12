@@ -52,6 +52,10 @@
   --channeltextarea-background: var(--background-secondary);
   --input-background: var(--background-secondary);
 	
+  --main-background-image: url("https://img.rawpixel.com/private/static/images/website/2022-05/rm218batch9-mynt-38.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=805338e41ce1480a747ce60266f14357");
+	
+  --image-opacity-color: #20032271;
+	
   --primary-bar-gradient-top: rgba(255,180,194,1);
   --primary-bar-gradient-middle: rgba(255,214,195,1);
   --primary-bar-gradient-bottom: rgba(169,210,185,1);
@@ -127,19 +131,44 @@
   color: #4c505e;
 }
 
-/* ======== MAIN BAR (DMs, Channel list, etc) ========= */
+/* ======== MAIN BARs (DMs, Channel list, etc) ========= */
 .scroller-1ox3I2, .scroller-WSmht3 {
   background: linear-gradient(180deg, var(--primary-bar-gradient-top) 0%, var(--primary-bar-gradient-middle) 50%, var(--primary-bar-gradient-bottom) 100%);
 }
 
+.sidebar-1tnWFu {
+  box-shadow: 3px 0px 10px rgb(0, 0, 0);	
+}
+
+.members-3WRCEx {
+  background: linear-gradient(180deg, var(--primary-bar-gradient-top) 0%, var(--primary-bar-gradient-middle) 50%, var(--primary-bar-gradient-bottom) 100%);
+  box-shadow: -3px 0px 10px rgb(0, 0, 0);
+}
+
+/* User status background */
 .panels-3wFtMD {
   background-color: var(--user-status-background);	
 }
 
-/* ======= SERVER LIST BAR ======== */
-.scroller-3X7KbA {
-  background: linear-gradient(180deg, var(--server-bar-gradient-top) 0%, var(--server-bar-gradient-bottom) var(--server-bar-gradient-bottom-percentage));
+/ * Avatar circles */
+.avatar-b5OQ1N {
+  border: 2.5px solid rgba(146, 27, 114, 0.685);
+  display: block;
+  border-radius: 50%;
+  box-sizing: border-box;
 }
+
+/* ====== BACKGROUND IMAGE ======= */
+.bg-1QIAus {
+  background: var(--main-background-image);
+}
+
+/* ======= SERVER LIST BAR ======== */
+
+.wrapper-1_HaEi {
+  background-color: var(--image-opacity-color);
+}
+
 
 /* Input Box Placeholder Text */
 ::placeholder {
@@ -769,9 +798,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 .reactorDefault-3GSyaV {
   box-shadow: inset 0 -1px 0 var(--background-modifier-accent) !important;
 }
-.scroller-2GkvCq {
-  background: var(--background-secondary) !important;
-}
+
 .reactionSelected-1aMb2K {
   background-color: var(--background-modifier-selected) !important;
 }

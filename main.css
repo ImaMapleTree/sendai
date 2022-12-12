@@ -123,7 +123,7 @@
 }
 
 /* ======== MAIN BAR (DMs, Channel list, etc) ========= */
-.scroller-1ox3I2 {
+.scroller-1ox3I2, .sidebar-1tnWFu {
   background: linear-gradient(180deg, var(--primary-bar-gradient-top) 0%, var(--primary-bar-gradient-middle) 50%, var(--primary-bar-gradient-bottom) 100%);
 }
 
@@ -514,9 +514,6 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 }
 .container-1NXEtd {
   background-color: var(--background-tertiary) !important;
-}
-.sidebar-1tnWFu {
-  background: var(--background-tertiary) !important;
 }
 .unread-36eUEm {
   top: 54%;

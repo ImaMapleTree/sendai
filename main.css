@@ -55,6 +55,7 @@
   --primary-bar-gradient-top: rgba(255,180,194,1);
   --primary-bar-gradient-middle: rgba(255,214,195,1);
   --primary-bar-gradient-bottom: rgba(169,210,185,1);
+  --user-status-background: #4cbd81df;
 }
 
 .theme-light {
@@ -129,6 +130,10 @@
 /* ======== MAIN BAR (DMs, Channel list, etc) ========= */
 .scroller-1ox3I2, .scroller-WSmht3 {
   background: linear-gradient(180deg, var(--primary-bar-gradient-top) 0%, var(--primary-bar-gradient-middle) 50%, var(--primary-bar-gradient-bottom) 100%);
+}
+
+.panels-3wFtMD {
+  background-color: var(--user-status-background);	
 }
 
 /* ======= SERVER LIST BAR ======== */
@@ -875,7 +880,6 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 /* Better Codeblocks */
 #app-mount .hljs {
   background-color: var(--background-secondary) !important;
-  border: 1px solid var(--background-tertiary);
   color: var(--text-normal);
 }
 .powercord-codeblock-lang {

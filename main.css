@@ -135,23 +135,25 @@
 .scroller-1ox3I2, .scroller-WSmht3 {
   background: linear-gradient(180deg, var(--primary-bar-gradient-top) 0%, var(--primary-bar-gradient-middle) 50%, var(--primary-bar-gradient-bottom) 100%);
 }
-
+/* Members bar */
 .members-3WRCEx {
   box-shadow: None;
   background: rgba(255, 255, 255, 0);
 }
 
+/* Member background */
 .member-48YF_l {
   background-color: rgba(255, 255, 255, 0);
 }
 
 
+/ * Members list (Main One) */
 .container-2o3qEW {
   box-shadow: -3px 0px 10px rgb(0, 0, 0);
   background: linear-gradient(180deg, var(--primary-bar-gradient-top) 0%, var(--primary-bar-gradient-middle) 50%, var(--primary-bar-gradient-bottom) 100%);
 }
 
-
+/* Channel bar shadow */
 .sidebar-1tnWFu {
   box-shadow: 3px 0px 10px rgb(0, 0, 0);	
 }
@@ -183,6 +185,11 @@
 
 .wrapper-1_HaEi {
   background-color: var(--image-opacity-color);
+}
+
+/* Make transparent */
+.scroller-3X7KbA {
+  background-color: rgba(255, 255, 255, 0);
 }
 
 

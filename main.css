@@ -127,13 +127,13 @@
 }
 
 /* ======== MAIN BAR (DMs, Channel list, etc) ========= */
-.scroller-1ox3I2, .sidebar-1tnWFu {
+.scroller-1ox3I2, .scroller-WSmht3 {
   background: linear-gradient(180deg, var(--primary-bar-gradient-top) 0%, var(--primary-bar-gradient-middle) 50%, var(--primary-bar-gradient-bottom) 100%);
 }
 
 /* ======= SERVER LIST BAR ======== */
 .scroller-3X7KbA {
-  background: linear-gradient(180deg, var(--background-tertiary) 0%, var(--background-tertiary-alt) 120%);
+  background: linear-gradient(180deg, var(--server-bar-gradient-top) 0%, var(--server-bar-gradient-bottom) var(--server-bar-gradient-bottom-percentage));
 }
 
 /* Input Box Placeholder Text */
